@@ -1,0 +1,14 @@
+@import './reset';
+@import './vars';
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+textarea {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+    &::placeholder {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+}

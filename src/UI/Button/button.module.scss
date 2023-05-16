@@ -1,0 +1,58 @@
+@import './../../styles/vars';
+
+.button {
+    border: 1px solid transparent;
+    border-radius: 0.25rem;
+    display: inline-block;
+    font-size: 1rem;
+    cursor: pointer;
+    text-align: center;
+    transition: 200ms;
+    padding: 0.625rem 1rem;
+
+    &_style {
+        &_green {
+            background-color: $ui_color;
+            color: $ui_color_second;
+
+            &:hover {
+                background-color: $ui_color_hover;
+            }
+
+            &:active {
+                background-color: $ui_color_active;
+            }
+        }
+
+        &_green-outline {
+            background-color: transparent;
+            color: $ui_color;
+            border-color: $ui_color;
+
+            &:hover {
+                color: $ui_color_hover;
+                border-color: $ui_color_hover;
+            }
+
+            &:active {
+                color: $ui_color_active;
+                border-color: $ui_color_active;
+            }
+        }
+
+        &_red {
+            background-color: $red_color;
+            color: $ui_color_second;
+
+            &:hover {
+                background-color: $red_color_hover;
+                color: $ui_color_second;
+            }
+
+            &:active {
+                background-color: $red_color_active;
+                color: $ui_color_second;
+            }
+        }
+    }
+}

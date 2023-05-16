@@ -1,0 +1,17 @@
+@import './../../styles/vars';
+
+.link {
+    transition: 200ms;
+
+    &_style_blue {
+        color: $ui_color_fourth;
+    }
+
+    &:hover {
+        color: $ui_color;
+    }
+
+    &:active {
+        color: $ui_color_active ;
+    }
+}

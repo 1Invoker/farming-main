@@ -1,0 +1,12 @@
+.product {
+    &__list {
+        display: flex;
+        flex-direction: column;
+        row-gap: 1.25rem;
+    }
+
+    &__more {
+        display: block;
+        margin: 1.5rem auto 0;
+    }
+}

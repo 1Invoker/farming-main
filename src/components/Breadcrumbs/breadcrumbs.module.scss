@@ -1,0 +1,25 @@
+@import './../../styles/vars';
+
+.breadcrumbs {
+    display: flex;
+    flex-wrap: wrap;
+    grid-gap: 12px;
+    margin-bottom: 28px;
+
+    &__item {
+        &::after {
+            content: "/";
+            display: inline-block;
+            margin-left: 10px;
+        }
+
+        &_active {
+            color: $ui_color;
+            font-weight: 500;
+
+            &::after {
+                content: none;
+            }
+        }
+    }
+}
