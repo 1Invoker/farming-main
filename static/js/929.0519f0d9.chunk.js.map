@@ -1,0 +1,1 @@
+{"version":3,"file":"static/js/929.0519f0d9.chunk.js","mappings":"8GAQA,UANoB,WAChB,OACI,CAER,C","sources":["pages/profile.jsx"],"sourcesContent":["// profile\n\nconst ProfilePage = () => {\n    return (\n        1\n    );\n};\n\nexport default ProfilePage;"],"names":[],"sourceRoot":""}
