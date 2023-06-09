@@ -405,7 +405,7 @@ const initialState = {
             vendor: 'Неизвестно',
             is_have: false,
             price: 999,
-            description: "FFFFFF",
+            description: "Кролик белый, хорошая выживаемость.",
             reviews: [
                 {
                     id: 1,
@@ -434,7 +434,8 @@ const initialState = {
             raiting: 4,
             vendor: 'Неизвестно',
             is_have: true,
-            price: 899
+            price: 899,
+            description: "Кролик оранжевый , подходит для разведения в домашних условиях"
         },
         {
             id: 3,
